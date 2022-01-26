@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReemoHealth.DailyReport", "ReemoHealth.DailyReport\ReemoHealth.DailyReport.csproj", "{93E7CD6C-47BE-40A3-91AC-90675060D85C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReemoHealth.DailyReport.Function", "ReemoHealth.DailyReport.Function\ReemoHealth.DailyReport.Function.csproj", "{9DB765E9-56BA-4BF8-83A8-61C25D2A9F4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReemoHealth.DailyReport.Tests", "ReemoHealth.DailyReport.Tests\ReemoHealth.DailyReport.Tests.csproj", "{93525F8C-C19D-40DC-B1BD-0A5A5AAC7CBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyReport.Lifespark", "DailyReport.Lifespark\DailyReport.Lifespark.csproj", "{4E7A87C4-9E7F-4FA3-83E4-EBAE12553C0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93E7CD6C-47BE-40A3-91AC-90675060D85C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E7CD6C-47BE-40A3-91AC-90675060D85C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E7CD6C-47BE-40A3-91AC-90675060D85C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E7CD6C-47BE-40A3-91AC-90675060D85C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB765E9-56BA-4BF8-83A8-61C25D2A9F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB765E9-56BA-4BF8-83A8-61C25D2A9F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB765E9-56BA-4BF8-83A8-61C25D2A9F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB765E9-56BA-4BF8-83A8-61C25D2A9F4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93525F8C-C19D-40DC-B1BD-0A5A5AAC7CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93525F8C-C19D-40DC-B1BD-0A5A5AAC7CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93525F8C-C19D-40DC-B1BD-0A5A5AAC7CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93525F8C-C19D-40DC-B1BD-0A5A5AAC7CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E7A87C4-9E7F-4FA3-83E4-EBAE12553C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E7A87C4-9E7F-4FA3-83E4-EBAE12553C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E7A87C4-9E7F-4FA3-83E4-EBAE12553C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E7A87C4-9E7F-4FA3-83E4-EBAE12553C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
