@@ -8,7 +8,7 @@ public class LifesparkDataSender: IDataSender
 
     public LifesparkDataSender(string apiUrl, string apiClientId, string apiClientSecret)
     {
-        // TODO set those to values or chagne fi we determine we need different type of API key
+        // TODO set those to values or change if we determine we need different type of API key
     }
     public void Dispose()
     {
@@ -24,4 +24,6 @@ public class LifesparkDataSender: IDataSender
     {
         throw new NotImplementedException();
     }
+    
+    
 }

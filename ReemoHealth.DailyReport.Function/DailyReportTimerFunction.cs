@@ -18,18 +18,21 @@ public static class DailyReportTimerFunction
         Guid lifesparkId = Guid.Parse(Environment.GetEnvironmentVariable("LifesparkId") ?? throw new InvalidOperationException("Must Specific Organization Id for Lifespark!"));
         var sqlConnString = Environment.GetEnvironmentVariable("SqlConnectionString");
         
-        var lifesparkApiUrl = Environment.GetEnvironmentVariable("LifesparkApiUrl");
+        var lifesparkApiUrl = Environment.GetEnvironmentVariable("LifesparkApiUrl") ?? throw new InvalidOperationException("Must specify lifespark api url!");
         var lifesparkClientId = Environment.GetEnvironmentVariable("LifesparkClientId");
         var lifesparkClientSecret = Environment.GetEnvironmentVariable("LifesparkClientSecret");
         
         
         var lifesparkDataSender = new LifesparkDataSender(lifesparkApiUrl, lifesparkClientId, lifesparkClientSecret);
+        
         var lifesparkDailyReportHandler = new DailyReportHandler(lifesparkId, lifesparkDataSender, sqlConnString);
         await lifesparkDailyReportHandler.Run(DateTime.Now);
         
         /*
          * Add any other clients we have here...
          */
+        
+        
 
     }
 }
